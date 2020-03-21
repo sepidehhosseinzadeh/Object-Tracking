@@ -12,11 +12,11 @@ Question: Find the best way to fuse this data and to reliably predict X’s posi
 ## Data
 from “http://robotsforroboticists.com/kalman-filtering/
 
-## Method
+## Methods
 (Adaptive) Kalman Filter is used for this problem. Alternative solutions can be Exponential Moving Average, Particle filter, and etc.
 Particle filtering suffers from the well-known problem of sample degeneracy. Ensemble Kalman filtering avoids this, at the expense of treating non-Gaussian features of the forecast distribution incorrectly.
 
-## Result
+## Results
 ![](https://github.com/sepidehhosseinzadeh/Object-Tracking/blob/master/Kalman-Filter-object-StateEstimates_2mes.png)
 ![](https://github.com/sepidehhosseinzadeh/Object-Tracking/blob/master/Adaptive-Kalman-Filter-object-StateEstimates_2mes.png)
 ![](https://github.com/sepidehhosseinzadeh/Object-Tracking/blob/master/EMA-Estimates_2mes.png)
